@@ -1,0 +1,153 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "vmc/1.0.0": {
+        "dependencies": {
+          "HSG.Numerics": "1.0.4",
+          "MathNet.Numerics": "5.0.0",
+          "OOOT": "1.0.21.422"
+        },
+        "runtime": {
+          "vmc.dll": {}
+        }
+      },
+      "FSharp.Core/8.0.100": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.23.52306"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "HSG.Numerics/1.0.4": {
+        "dependencies": {
+          "FSharp.Core": "8.0.100"
+        },
+        "runtime": {
+          "lib/net6.0/C.Numerics.dll": {
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net6.0/HSG.Numerics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MathNet.Numerics/5.0.0": {
+        "runtime": {
+          "lib/net6.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "OOOT/1.0.21.422": {
+        "dependencies": {
+          "StarMath": "2.0.20.204"
+        },
+        "runtime": {
+          "lib/netstandard2.1/OptimizationToolbox.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StarMath/2.0.20.204": {
+        "runtime": {
+          "lib/netstandard2.1/StarMath.dll": {
+            "assemblyVersion": "2.0.20.204",
+            "fileVersion": "2.0.20.204"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "vmc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FSharp.Core/8.0.100": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZOVZ/o+jI3ormTZOa28Wh0tSRoyle1f7lKFcUN61sPiXI7eDZu8eSveFybgTeyIEyW0ujjp31cp7GOglDgsNEg==",
+      "path": "fsharp.core/8.0.100",
+      "hashPath": "fsharp.core.8.0.100.nupkg.sha512"
+    },
+    "HSG.Numerics/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xbeovj3dCnCtOTB8VjuVyL6jWBY/dYVnnzgJlGYOP7L0J2RSM2rsSpmJhfGyy5r5i59Olh+W2cKRumUCDtCFVA==",
+      "path": "hsg.numerics/1.0.4",
+      "hashPath": "hsg.numerics.1.0.4.nupkg.sha512"
+    },
+    "MathNet.Numerics/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
+      "path": "mathnet.numerics/5.0.0",
+      "hashPath": "mathnet.numerics.5.0.0.nupkg.sha512"
+    },
+    "OOOT/1.0.21.422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5xOXYE/ueLhQ1zOAT9/ycuGD0Un5wIqusaUkU9Nmcf75Cukg44uRZ5P/G2WYo0Qv/JDyn0RVAB9F4fa0Sv5d3A==",
+      "path": "ooot/1.0.21.422",
+      "hashPath": "ooot.1.0.21.422.nupkg.sha512"
+    },
+    "StarMath/2.0.20.204": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J3eBftfcpGmKxFAZk2Ww87Eho9Cw8HI3OiX34gle0xCsYYJuLyunNi9tn8yYrMkMX9F9/Ko940M2r1mq9gj+ww==",
+      "path": "starmath/2.0.20.204",
+      "hashPath": "starmath.2.0.20.204.nupkg.sha512"
+    }
+  }
+}
