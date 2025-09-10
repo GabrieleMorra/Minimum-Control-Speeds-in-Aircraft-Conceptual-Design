@@ -4,6 +4,8 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.ast.2025.110856-blue)](https://doi.org/10.1016/j.ast.2025.110856)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20|%20Linux%20|%20macOS-lightgrey)](https://dotnet.microsoft.com/)
 [![Language](https://img.shields.io/badge/Language-C%23-239120)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+
+
 A scientific software tool for calculating aircraft minimum control speeds (Vmca and Vmcg) using lateral-directional trim analysis, implementing the methodology described in the research paper "Lateral-Directional Trim For Air And Ground Minimum Control Speeds Evaluation In Conceptual Design".
 
 ## Overview
